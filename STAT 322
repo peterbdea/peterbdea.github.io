@@ -1,0 +1,53 @@
+STAT 322
+Probabalistic Methods for Electrical Engineers (Statistics and Probability)
+
+Topics Covered: Set Notation, Baye's Rule, Counting Methods, Bernoulli Experiments, Discrete Random Variables, 
+
+
+1 Sample space and Probability 3
+1.1 Basic Probability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.1.1 Examples for sample spaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.1.2 Examples for events . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.2 Basic Notation of Sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.3 Kolmogorov’s Axioms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.4 Conditional Probabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+1.5 Independence of Events . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+1.6 Bayes’ Rule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+1.7 Counting Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+1.7.1 “Multiplication Principle” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+1.7.2 Ordered Samples with Replacement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+1.7.3 Ordered Samples without Replacement . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+1.7.4 Unordered Samples without Replacement . . . . . . . . . . . . . . . . . . . . . . . . . 21
+1.7.5 Unordered Samples with Replacement (Extra) . . . . . . . . . . . . . . . . . . . . . . 23
+1.7.6 Partitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+
+2 Random Variables 25
+2.1 Bernoulli Experiments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+2.2 Discrete Random Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+2.2.1 Expectation and Variance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+2.2.2 Some Properties of Expectation and Variance . . . . . . . . . . . . . . . . . . . . . . . 30
+2.2.3 Probability Distribution Function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+2.3 Special Discrete Probability Mass Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+2.3.1 Bernoulli pmf . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+2.3.2 Binomial pmf . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+2.3.3 Geometric pmf . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+2.3.4 Poisson pmf . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+2.3.5 Compound Discrete Probability Mass Functions . . . . . . . . . . . . . . . . . . . . . 35
+
+
+
+3.1 Continuous Random Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+3.2 Some special continuous density functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+3.2.1 Uniform Density . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+3.2.2 Exponential distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+3.2.3 Erlang density . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+3.2.4 Gaussian or Normal density . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+3.3 Central Limit Theorem (CLT) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+3.4 Multiple Continuous Random Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+3.4.1 Conditional Densities and Multiplication Rule . . . . . . . . . . . . . . . . . . . . . . . 52
+3.4.2 Two dimensional Uniform distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+3.4.3 Bivariate Normal Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+3.4.4 Sums of Random Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+
+Overall this was a basic probability class. I enjoy doing this class more than most people do because I know the principles will be very important for the Machine Learning class I am taking next smemster, which is a topic I am very interested in.

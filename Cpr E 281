@@ -1,0 +1,9 @@
+Cpr E 281
+Digital Logic
+
+In this class I am learning the fundamental aspects of digital circuit design. We started with the basic logic gates and from there learned how to create Multiplexers, Adders, Encoders, Decoders, Latches, Flip Flops, Registers, Counters.....
+
+A part of this 4 credit hour class is a weekly lab where we simulate these circuits by creating them using Quartus Prime software then uploading them to a Cyclone IV FPGA which allows us to use physical switches, buttons, and LEDs to view our circuit working.
+
+Include cool labs
+
