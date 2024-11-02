@@ -1,74 +1,176 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Portfolio</title>
+    <title>Peter Dea</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#">Peter Dea's Portfolio</a></li>
-          <li><a href="#info">Information</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#academics">Academics</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#ethics-essay">Ethics Essay</a></li>
+          <li><a href="#essays">Essays</a></li>
+          <li><a href="resume.pdf">Resume</a></li>
+          <li><a href="peterbdea@protonmail.com">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="info">
-        <h2>Information</h2>
-        <p>Hello, I am Peter Dea. I am currently a student at Iowa State University pursuing a Bacheleor's Degree in Electrical Engineering. You are currently viewing a portfolio of some projects of mine. If you would like to get in contact with me please use the following information.</p>
-        <p>E-Mail: <a href="#info">peterbdea@protonmail.com</a></p>
+      <section id="Home">
+        <div class="bio">
+          <div class ="text">
+           <h2>Information</h2>
+           <p>Hello, I am Peter Dea. I am currently a senior at Iowa State University, where I am pursuing a Bachelor's Degree in Electrical Engineering. My primary interests lie in the area of electrical circuit and system design. I am most experienced in the areas of VLSI circuit design and embedded circuit design. My main career objective is to work in a position where I can incorporate my skills in contributing to innovative projects.</p>
+           <p>I created this website for the purpose of documenting my personal achievements, projects, and interests. I hope that you enjoy it.
+           <p><b>Get in touch:</b></p>
+        <p>E-Mail: <a href="peterbdea@protonmail.com">peterbdea@protonmail.com</a></p>
+          </div>
+          <img src="images/it's me.png" alt="It's me!">
+        </div>
       </section>
+
       <section id="projects">
-        <h2>Projects</h2>
-        <h3>Crystal Radio Project</h3>
-         <div class="photo-container">
-          <figure>
-              <img src="Picture1.png" alt="Radio Image" class="project-photo">
-              <figcaption>Radio, tuning capacitor, and earphone</figcaption>
-          </figure>
-          <figure>
-              <img src="Picture2.png" alt="Antenna" class="project-photo">
-              <figcaption>Antenna</figcaption>
-          </figure>
-         </div>
-         <p>A crystal radio is a simple radio receiver that requires no external power source and instead produces sound from only the radio signal it receives. For my project I created a homemade crystal radio out of mostly simple parts I found lying around in the garage. The radio works by receiving a signal from local AM radio stations through the antenna. The signal from the antenna goes through the first coil of magnet wire with 25 loops. The current from the first coil of wire creates a magnetic field, and because the current from the signals being received is not consistent, the magnetic field varies. The variable magnetic field induces a current into the next coil of wire. The current in the second coil of wire carries the radio signal through an earphone that can create sound waves out of a very small signal. Because of the way AM radio waves are broadcasted, a diode is required to be placed in series with the earphone in order for the radio to create a comprehensive sound.</p>
-        <p>Also included on the radio is a tuning bar which I made of an insulated copper wire. Because I sanded the insulation off of the top of the longer coil of wire, the tuning bar can make contact with that coil at any point you choose, which shorts it into the ground. To help tune the radio, a homemade variable capacitor is placed in series with the second coil of wire. I made the capacitor by wrapping aluminum foil around a PVC pipe, then I wrapped another piece of aluminum foil around it with paper separating the two to avoid them making contact. The piece of paper along with the aluminum foil is able to slide up and down the PVC pipe, which allows you to change the area between the two sections of aluminum foil. In effect, this allows you to vary the capacitance of the capacitor. Together, the tuning bar and capacitor allow you to choose which frequency of radio waves you would like to listen to.</p>
-        <p>Below is a simple diagram of all of the parts in the radio.</p>
-        <div class="photo-container">
-          <figure>
-              <img src="Picture3.png" alt="Simple Diagram" class="project-photo">
-          </figure>
-         </div>
-         <p>As you can see, a lot of the parts have to be grounded. For my ground, I used a copper pipe and literally just put it into the ground. I found this to be very effective.</p>
-         <div class="photo-container">
-          <figure>
-              <img src="Picture4.png" alt="Ground Pipe" class="project-photo">
-          </figure>
-         </div>
-         <p>After many hours of working on this project, I was able to tune into some local radio stations broadcasting information about sports. I wanted to include a recording but the sound is far too faint to pick up on a microphone. I was, however able to understand what they were talking about, so this has proven to be an effective method to pick up on AM radio waves.</p>
-</section>
 
-      <section id="ethics-essay">
-        <h2>Ethics Essay</h2>
-        <p>Ethics is an important aspect of any company or organization that involves taking the correct actions based on a set of moral principles. Because of this importance, many organizations choose to install a “code of ethics,” which is a set of guidelines for how people are expected to act in order to fall within the morals of the organization. The code itself promotes ethical behavior in a way such that members of the organization will make decisions that are seen as morally good. It is important to have a code of ethics to establish a common understanding of what sort of behavior and decisions are expected of people within a group.</p>
+        <div class="sub">
+          <h2>Projects</h2>
+          <div class="classes-container">
+            <a href="senior design.html" class="class-link">
+              <div class="class">
+                <h3>Senior Design Project</h3>
+                <img src="images/LED toy.png" alt="Senior Design">
+                <p>Designing destructive and non-destructive test methods for a small electronic device (LED Toy).</p>
+              </div>
+            </a>
+            <a href="pcb.html" class="class-link">
+              <div class="class">
+                <h3>Custom PCB Color Organ</h3>
+                <img src="images/color organ.png" alt="Color Organ">
+                <p>A custom-designed and hand-soldered 3 LED color organ PCB.</p>
+              </div>
+            </a>
+            <a href="website.html" class="class-link">
+            <div class="class">
+              <h3>peterdea.com</h3>
+              <img src="images/website.png" alt="My website">
+              <p>Building this website from scratch</p>
+            </div>
+          </a>
+           <a href="chess.html" class="class-link">
+            <div class="class">
+                <h3>Programming Chess in C</h3>
+                <img src="images/chess.png" alt="Unicode Chessboard">
+                <p>A playable version of chess in the console featuring keyboard controls, multiple themes, and a computer player with varying skill levels.</p>
+              </div>
+            </a>
+            <div class="class">
+              <h3>Optical Signaling Device</h3>
+              <img src="images/230 project.png" alt="Optical Signalling Device">
+              <p>A circuit that can generate, transmit, and receive different frequencies through the air.</p>
+            </div>
+        </div>
+      </div>
+    </section>
 
-        <p>Personally, when I am confronted with a situation that challenges me to think about ethics, I believe that it is very important for me to look at the issue with a level-headed perspective. I try to leave any biases that I might have aside and look at the issue in an objective way. I try to consider all of the factors of the problem and which ethical values are important in the situation. Before making any decisions I also try to weigh the consequences of any action that I might take before deciding on a final approach. It is also important to look at the situation from others’ perspectives in order to determine how my choices might effect the people around me.</p>
+      <section id="academics">
+        <div class="sub">
+          <h2>Research Experience</h2>
+          <p>Along with my normal coursework at Iowa State this semester, I am also taking part in an REU (Research Experience for Undergraduates). I am assisting in research being put on by the ARA program (Advanced Rural Applications). My personal responsibility is to assist in the development of software to monitor the computer health data of the User Equipment distributed around Ames and create an API to communicate this health data with a central server.
+        </div>
+        <div class="sub">
+        <h2>Current Coursework</h2><br>
+        <div class="classes-container">
+          <div class="class">
+           <h3>EE 311: Electromagnetic Fields and Waves</h3>
+           <img src="images/ee 311.png" alt="Fields and Waves">
+           <p>Topics Covered: Vector Calculus, Electric Fields, Magnetic Fields, Maxwell's Equations, EM Wave Propagation, Transmission Lines.</p>
+          </div>
+        <div class="class">
+          <h3>Cpr E 281: Digital Logic</h3><br><br>
+          <img src="images/cpre 281.png" alt="Digital Logic">
+          <p>Topics Covered: Digital Circuit Analysis and Design, Verilog Programming, Digital Circuit Design Software (Quartus Prime, Questa ModelSim)</p>
+        </div>
+        <a href="ee 285.html" class="class-link">
+        <div class="class">
+          <h3>EE 285: Problem Solving Methods for Electrical Engineers</h3>
+          <img src="images/ee 285.png" alt="C Programming">
+          <p>Topics Covered: C Programming and Linux Shell Terminals</p>
+        </div>
+        </a>
+        <div class="class">
+          <h3>STAT 322: Probabalistic Methods for Electrical Engineers</h3>
+          <img src="images/stat 322.png" alt="Probability">
+          <p>Topics Covered: Discrete and Continuous Random Variables, Statistics, Probability</p>
+        </div>
+        <div class="class">
+          <h3>PHIL 201: Introduction to Philosophy</h3>
+          <img src="images/phil 201.png" alt="Philosophy">
+          <p>Topics Covered: Rationality and Logic, The Existence of God, Epistemology, Personal Identity, Death and the Meaning of Life</p>
+        </div>
+      <!-- Repeat the above div for each class -->
+      </div>
+      <h2>Completed Coursework</h2><br>
+        <div class="classes-container">
+          <div class="class">
+           <h3>EE 303: Energy Systems and Power Electronics</h3>
+           <img src="images/ee 303.png" alt="Power">
+           <p>Topics Covered: Three Phase Power, Electricity Generation, Electricity Transmission</p>
+          </div>
+        <div class="class">
+          <h3>EE 230: Electronic Circuits and Systems</h3>
+          <img src="images/ee 230.png" alt="Electronic Circuits">
+          <p>Topics Covered: Filters, Non-Ideal Op Amps, Diodes, Transistors</p>
+        </div>
+        <div class="class">
+          <h3>EE 224: Signals and Systems</h3><br>
+          <img src="images/ee 224.png" alt="Signals and Systems">
+          <p>Topics Covered: Fourier Transforms and Fourier Series, AM and FM Communications, Transfer Functions</p>
+        </div>
+        <div class="class">
+          <h3>Calculus 1, 2, and 3</h3>
+          <img src="images/calculus.png" alt="Calculus">
+          <p>Topics Covered: Derivatives, Antiderivatives, Taylor Series, Vector Calculus</p>
+        </div>
+      <!-- Repeat the above div for each class -->
+      </div>
+    </div>
 
-        <p>Many members of the group discussion I took part in chose to discuss the Amazon Echo issue. To summarize the issue, an amazon echo was present at the scene of a murder, and the authorities were trying to pressure Amazon into providing them with data from the Amazon echo in order to catch the murderer.</p>
 
-         <p>This issue is a prime example of an ethical issue, as it raises questions about the responsibilities of large technology companies and what they are to do in order to protect the security and privacy of their customers. The case also does a good job at illustrating the conflicts between the public’s interest in their own privacy and the interests of law enforcement. Issues such as this one are becoming more and more common as technology continues to advance making it easier to gather and move data around the world. As companies continue to engage in these practices, it is important for them to consider the ethical implications of who has access to this data and how they can use it. Me and my classmates agreed that the case of Amazon Echo highlights the importance of developing clear guidelines and policies around data privacy and security to ensure that the public interest is protected while also respecting individual rights and freedoms.</p>
-
-         <p>There are many different hard questions involved in this dilemma that call upon the different virtues of ethics. The biggest one I believe is Responsibility. Is it the responsibility of Amazon to disclose the data to authorities if it means making the world a safer place? Or is it the responsibility of Amazon to protect the private data of the users of its services in order to secure their trust.</p>
-
-         <p>Another important one is honesty. If Amazon were to make its users believe that their information was safe from third parties access it, the issue of whether or not to allow anyone to access that data is one that challenges the honesty of Amazon as an institution. If Amazon were to violate their users’ trust and sell their data than they may break their honest reputation and violate another one of the virtues of ethics.</p>
-
-         <p>The final one virtue of ethics I will touch on that this issue pertains to is integrity. The question of whether to give the authorities the data is a difficult one that challenges the morals of anyone who is confronted with it. It required Amazon as a company to make a choice between which moral principles they wanted to uphold, which is a difficult decision to make when the entire world is watching. The choice that Amazon made in the end was a significant indicator of the integrity of the company as a whole.</p>
-
-         <p>In conclusion, the importance of a code of ethics arises from its ability to ensure that the actions of a group of individuals within an organization are well able to align their principles and values. When faced with ethical dilemmas, it is crucial to approach the situation with a clear perspective, considering every factor to make a decision that aligns with the values that are deemed important. The Amazon Echo case demonstrates the need for clear guidelines about the ethics of a company in regard to data and security. It is not only important for Amazon as a company to do this, but for all of us to do our best to form ethical solutions in order to ensure that the common morals of mankind are upheld.</p>
       </section>
+
+  <section id="essays">
+
+    <div class="sub">
+      <h2>Essays</h2>
+      <div class="classes-container">
+       <a href="reflection.html" class="class-link">
+        <div class="class">
+            <h3>A Reflective Journey</h3>
+            <img src="images/iowa state.png" alt="Iowa State University">
+            <p>Navigating Your Cumulative Experience at Iowa State University</p>
+          </div>
+        </a>
+        <a href="gen ed.html" class="class-link">
+          <div class="class">
+              <h3>General Education Reflection</h3>
+              <img src="images/gen ed.png" alt="General Education">
+              <p>A reflection on my general education at Iowa State University</p>
+            </div>
+          </a>
+          <a href="ethics.html" class="class-link">
+            <div class="class">
+                <h3>Ethics Essay</h3>
+                <img src="images/earth.png" alt="Ethics Essay">
+                <p>An essay about engineering ethics.</p>
+              </div>
+            </a>
+    </div>
+  </div>
+</section>
+  
+
+  
     </main>
   </body>
 </html>
